@@ -1,8 +1,8 @@
-# starlink-grpc-agent
+# Starlink API Collector Agent
 
 ## Overview
 
-`starlink-grpc-agent` is a project aimed at creating an agent that can be duplicated across multiple sites. This agent will collect status information from a Starlink dish and relay it back to a defined central server by the means of HTTP requests.
+`starlink-api-collector-agent` is a project aimed at creating an agent that can be duplicated across multiple sites. This agent will collect status information from a Starlink dish and relay it back to a defined central server by the means of HTTP requests.
 
 ## Features
 
@@ -20,7 +20,7 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/ashton-southall/starlink-grpc-agent.git
+    git clone https://github.com/ashton-southall/starlink-api-collector-agent.git
     cd starlink-grpc-agent
     ```
 
