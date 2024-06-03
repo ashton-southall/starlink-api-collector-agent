@@ -26,19 +26,19 @@
 
 ### Configuration
 
-Create a configuration file `config.yaml` with the following structure:
+Ensure your machine has the folling Evironment Variables:
+## App required Starlink Environment Variables
+ENV STARLINK_DISH_IP = https://192.168.100.1:9200
 
-```yaml
-server:
-  host: "central.server.com"
-  port: 8080
+ENV STARLINK_DISH_ID = TEST-DISH-STL-001
 
-starlink:
-  dish_id: "your_dish_id"
-  location: "your_location"
-  dish_ip: "192.168.100.1"
-  dish_port: 9200
-```
+ENV STARLINK_DISH_LOCATION = Location
+
+## App required server Environment Variables
+SERVER_HOST=central.server.com
+
+SERVER_PORT=8080
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
